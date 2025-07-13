@@ -130,6 +130,7 @@
    	<div class="btn-group">
    		<button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#newFileModal">New File</button>
    		<button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#newDirModal">New Folder</button>
+		<a href="tool-upload.cgi?dir=<%= $dir %>" class="btn btn-sm btn-primary">Upload</a>
    	</div>
    </div>
 </div>
